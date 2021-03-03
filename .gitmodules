@@ -7,3 +7,11 @@
 [submodule "core/lib/jsmn/src"]
 	path = core/lib/jsmn/src
 	url = https://github.com/zserge/jsmn
+[submodule "azure-ulib-c"]
+	path = azure-ulib-c
+	url = https://github.com/Azure/azure-ulib-c.git
+	branch = moka/fixipcsample
+[submodule "core/lib/azure-ulib-c"]
+	path = core/lib/azure-ulib-c
+	url = https://github.com/Azure/azure-ulib-c.git
+	branch = moka/fixipcsample

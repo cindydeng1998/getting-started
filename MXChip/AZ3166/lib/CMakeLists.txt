@@ -20,6 +20,7 @@ set(NX_AZURE_DISABLE_IOT_SECURITY_MODULE OFF CACHE BOOL "Security Module")
 add_subdirectory(${CORE_LIB_DIR}/threadx threadx)
 add_subdirectory(${CORE_LIB_DIR}/netxduo netxduo)
 add_subdirectory(${CORE_LIB_DIR}/jsmn jsmn)
+add_subdirectory(${CORE_LIB_DIR}/azure-ulib-c azure-ulib-c)
 
 add_subdirectory(stm32cubef4)
 add_subdirectory(mxchip_bsp)
